@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, transition, animate} from "@angular/animations"
+import {Observable} from 'rxjs/Observable'
 
 import {NotificationService} from '../notification.service'
-import {Observable} from 'rxjs/Observable'
 import 'rxjs/add/observable/timer'
 import 'rxjs/add/operator/do'
 import 'rxjs/add/operator/switchMap'

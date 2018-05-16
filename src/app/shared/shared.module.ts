@@ -36,6 +36,7 @@ import { AuthInterceptor } from '../security/auth.interceptor';
     InputComponent,
     RadioComponent,
     RatingComponent,
+    SnackbarComponent,
     CommonModule,
     FormsModule,
     ReactiveFormsModule
